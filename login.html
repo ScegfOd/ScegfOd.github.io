@@ -14,9 +14,20 @@
 		</nav>
 
 		<main>
-			<header><h1>This is the login page!</h1></header>
-			<p>TODO: actual login stuff</p>
+			<header><h1>Login</h1></header>
+			Email:<input type="text" id="email" placeholder="you@gmail.com">
+			Password:<input type="password" id="password" placeholder="password">
+			<button id="login_button">Login</button>
 		</main>
 		<footer>&copy; 2020 ge4396</footer>
 	</body>
+	<script>
+		var login_button = document.getElementById("login_button");
+		login_button.addEventListener("click", login);
+		function login(){
+			email = document.getElementById("email").value;
+			password = document.getElementById("password").value;
+			console.log("Email: " + email + ", Password:" + password);
+		}
+	</script>
 </html>
