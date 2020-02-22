@@ -6,6 +6,7 @@
 		<link rel="stylesheet" type="text/css" href="css/club.css">
 		<script src="js/onload.js"></script>
 		<script src="js/nav.js"></script>
+		<script src="js/join.js"></script>
 	</head>
 
 	<body>
@@ -21,17 +22,22 @@
 			Password:<input type="password" id="password1" placeholder="password">
 			Retype password:<input type="password" id="password2" placeholder="password">
 			Remote control skill:<select id="pilot">
-				<option value="1">noob</option>
-				<option value="2">okay</option>
-				<option value="3">pro</option>
+				<option value="a nooblet">noob</option>
+				<option value="good enough">okay</option>
+				<option value="a professional">pro</option>
 			</select>
 			Robot building skill:<select id="build">
-				<option value="1">noob</option>
-				<option value="2">okay</option>
-				<option value="3">pro</option>
+				<option value="a nooblet">noob</option>
+				<option value="good enough">okay</option>
+				<option value="a professional">pro</option>
 			</select>
-			<button id="signup_button">Sign me up!</button>
+			<button onclick="signup()">Sign me up!</button>
 		</main>
+		<section id="ThanksDialog">
+			<p>Thanks for signing up!</p>
+			<p></p>
+			<button onclick="goaway()">Yay I'm signed up! Close this window!</button>
+		</section>
 		<footer>&copy; 2020 ge4396</footer>
 	</body>
 </html>
