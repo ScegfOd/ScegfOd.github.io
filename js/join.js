@@ -1,7 +1,7 @@
 function signup(){
 	dialog = document.getElementById("ThanksDialog");
 	data = document.getElementById("name").value;
-	dialog.children[1].textContent += "Name: " + data;
+	dialog.children[1].textContent = "Name: " + data;
 	data = document.getElementById("email").value;
 	dialog.children[1].textContent += ", Email: <" + data +">";
 	data = document.getElementById("password1").value;

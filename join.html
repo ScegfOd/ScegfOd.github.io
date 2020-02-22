@@ -17,21 +17,23 @@
 
 		<main>
 			<header><h1>Join us!</h1></header>
-			Name:<input type="text" id="name" placeholder="Robot McMachine">
-			Email:<input type="text" id="email" placeholder="RMcMachine@gmail.com">
-			Password:<input type="password" id="password1" placeholder="password">
-			Retype password:<input type="password" id="password2" placeholder="password">
-			Remote control skill:<select id="pilot">
-				<option value="a nooblet">noob</option>
-				<option value="good enough">okay</option>
-				<option value="a professional">pro</option>
-			</select>
-			Robot building skill:<select id="build">
-				<option value="a nooblet">noob</option>
-				<option value="good enough">okay</option>
-				<option value="a professional">pro</option>
-			</select>
-			<button onclick="signup()">Sign me up!</button>
+			<section class="form">
+				<label>Name:</label><input type="text" id="name" placeholder="Robot McMachine">
+				<label>Email:</label><input type="text" id="email" placeholder="RMcMachine@gmail.com">
+				<label>Password:</label><input type="password" id="password1" placeholder="password">
+				<label>Retype password:</label><input type="password" id="password2" placeholder="password">
+				<label>Remote control skill:</label><select id="pilot">
+					<option value="a nooblet">noob</option>
+					<option value="good enough">okay</option>
+					<option value="a professional">pro</option>
+				</select>
+				<label>Robot building skill:</label><select id="build">
+					<option value="a nooblet">noob</option>
+					<option value="good enough">okay</option>
+					<option value="a professional">pro</option>
+				</select>
+				<button onclick="signup()">Sign me up!</button>
+			</section>
 		</main>
 		<section id="ThanksDialog">
 			<p>Thanks for signing up!</p>

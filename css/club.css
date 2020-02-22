@@ -11,6 +11,8 @@ body {
 	background-color: #E0E0E0;
 	margin: 1rem;
 	padding: 1rem;
+	display: flex;
+	flex-direction: column;
 }
 
 nav {
@@ -57,4 +59,26 @@ table {
 	border: 3px dashed darkblue;
 	margin: 1em;
 	background-color: #f0e0e0;
+}
+section.form {
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+	grid-row-gap: .3em;
+	grid-column-gap: .1em;
+}
+section.form label{
+	justify-self: end;
+}
+#ThanksDialog{
+	display: none;
+	position: fixed;
+	background-color: #f0e0e0;
+	border: brown 1em solid;
+	padding: 1em;
+	width: 50%;
+	top: 20%;
+	left: 25%;
+}
+#ThanksDialog.ShowDialog {
+	display: inherit;
 }
