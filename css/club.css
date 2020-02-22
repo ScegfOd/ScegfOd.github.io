@@ -80,5 +80,5 @@ section.form label{
 	left: 25%;
 }
 #ThanksDialog.ShowDialog {
-	display: inherit;
+	display: unset;
 }
