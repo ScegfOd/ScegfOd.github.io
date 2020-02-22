@@ -2,6 +2,7 @@ all_links = {};
 all_links["index.html"]=String.fromCodePoint(0x1F916)+" Home Page";
 all_links["activities.html"]=String.fromCodePoint(0x1F996)+" Club Activities";
 all_links["login.html"]=String.fromCodePoint(0x1F409)+" Login";
+all_links["join.html"]=String.fromCodePoint(0x1F422)+" Sign Up";
 all_links["about.html"]=String.fromCodePoint(0x1F995)+" About Page";
 
 function addNav(){
