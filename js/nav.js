@@ -18,4 +18,5 @@ function addNav(){
 	}
 }
 
-window.onload = addNav;
+onloadfunctions.push(addNav);
+

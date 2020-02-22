@@ -49,3 +49,12 @@ img {
 	float: right;
 	border: dashed;
 }
+td {
+	border: 1px dashed darkblue;
+	padding: 2px
+}
+table {
+	border: 3px dashed darkblue;
+	margin: 1em;
+	background-color: #f0e0e0;
+}
