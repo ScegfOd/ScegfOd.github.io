@@ -18,21 +18,26 @@ body {
 nav {
 	background-color: #A0A0E0;
 	margin: 2rem;
-	padding: 0rem;
+	padding: 1em 3em 1em 3em;
 	border: dotted;
 	max-width: 12em;
 }
 nav li{
 	list-style-type: none;
 }
-nav a{
+nav p{
 	background-color: #B0B0E0;
 	text-decoration: none;
 	color: black;
+	margin: 0em;
 }
-nav li.active a{
+nav li p.active{
 	background-color: #303070;
 	color: white;
+}
+nav ul{
+	padding: 0;
+	margin: 0;
 }
 
 main {
@@ -69,6 +74,9 @@ section.form {
 section.form label{
 	justify-self: end;
 }
+header+button{
+	width: 100%;
+}
 #ThanksDialog{
 	display: none;
 	position: fixed;
@@ -82,3 +90,6 @@ section.form label{
 #ThanksDialog.ShowDialog {
 	display: unset;
 }
+
+
+/*# sourceMappingURL=ReactClub.9ad09f98.css.map */
