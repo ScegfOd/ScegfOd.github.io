@@ -28313,7 +28313,7 @@ if ("development" === 'production') {
 }
 },{"./cjs/react-dom.development.js":"node_modules/react-dom/cjs/react-dom.development.js"}],"images/dino1.jpg":[function(require,module,exports) {
 module.exports = "dino1.4bddd4ad.jpg";
-},{}],"Home.js":[function(require,module,exports) {
+},{}],"guest/Home.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -28323,7 +28323,7 @@ exports.default = void 0;
 
 var _react = _interopRequireDefault(require("react"));
 
-var _dino = _interopRequireDefault(require("./images/dino1.jpg"));
+var _dino = _interopRequireDefault(require("../images/dino1.jpg"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -28336,7 +28336,7 @@ function Home() {
 
 var _default = Home;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","./images/dino1.jpg":"images/dino1.jpg"}],"About.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","../images/dino1.jpg":"images/dino1.jpg"}],"guest/About.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -28354,7 +28354,7 @@ function About() {
 
 var _default = About;
 exports.default = _default;
-},{"react":"node_modules/react/index.js"}],"Oops.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js"}],"guest/Oops.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -28372,7 +28372,7 @@ function Oops() {
 
 var _default = Oops;
 exports.default = _default;
-},{"react":"node_modules/react/index.js"}],"Login.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js"}],"guest/Login.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -28480,7 +28480,7 @@ var _default = Login;
 exports.default = _default;
 },{"react":"node_modules/react/index.js"}],"images/dino2.jpg":[function(require,module,exports) {
 module.exports = "dino2.abfb5e0a.jpg";
-},{}],"activities.json":[function(require,module,exports) {
+},{}],"db/activities.json":[function(require,module,exports) {
 module.exports = [{
   "name": ["Warzone Wednesdays"],
   "type": ["battle"],
@@ -28494,7 +28494,7 @@ module.exports = [{
   "type": ["show"],
   "dates": ["January 11th", "February 15th", "March 14th", "April 11th", "May 16th", "Jun 13th", "July 11th", "August 15th", "September 12th", "October 17th", "November 14th", "December 12th"]
 }];
-},{}],"Activities.js":[function(require,module,exports) {
+},{}],"guest/Activities.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -28504,9 +28504,9 @@ exports.default = void 0;
 
 var _react = _interopRequireDefault(require("react"));
 
-var _dino = _interopRequireDefault(require("./images/dino2.jpg"));
+var _dino = _interopRequireDefault(require("../images/dino2.jpg"));
 
-var _activities = _interopRequireDefault(require("./activities.json"));
+var _activities = _interopRequireDefault(require("../db/activities.json"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -28551,7 +28551,7 @@ function (_React$Component) {
       return _react.default.createElement("main", null, _react.default.createElement("img", {
         src: _dino.default,
         alt: "A robot triceratops with a laser blaster mounted on top."
-      }), _react.default.createElement("header", null, _react.default.createElement("h1", null, "Club activities!")), _react.default.createElement("table", null, _react.default.createElement("thead", null, _react.default.createElement("tr", null, _react.default.createElement("td", null, "Name"), _react.default.createElement("td", null, "Type"), _react.default.createElement("td", null, "Dates"))), activity_table));
+      }), _react.default.createElement("header", null, _react.default.createElement("h1", null, "Club Activities!")), _react.default.createElement("table", null, _react.default.createElement("thead", null, _react.default.createElement("tr", null, _react.default.createElement("td", null, "Name"), _react.default.createElement("td", null, "Type"), _react.default.createElement("td", null, "Dates"))), activity_table));
     }
   }]);
 
@@ -28560,7 +28560,7 @@ function (_React$Component) {
 
 var _default = Activities;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","./images/dino2.jpg":"images/dino2.jpg","./activities.json":"activities.json"}],"guestApp.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","../images/dino2.jpg":"images/dino2.jpg","../db/activities.json":"db/activities.json"}],"guest/guestApp.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -28678,7 +28678,7 @@ function (_React$Component) {
 
 var _default = GuestApp;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","./Home.js":"Home.js","./About.js":"About.js","./Oops.js":"Oops.js","./Login.js":"Login.js","./Activities.js":"Activities.js"}],"Logout.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","./Home.js":"guest/Home.js","./About.js":"guest/About.js","./Oops.js":"guest/Oops.js","./Login.js":"guest/Login.js","./Activities.js":"guest/Activities.js"}],"member/Logout.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -28698,7 +28698,7 @@ function Logout(props) {
 
 var _default = Logout;
 exports.default = _default;
-},{"react":"node_modules/react/index.js"}],"memberApp.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js"}],"member/memberApp.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -28708,15 +28708,15 @@ exports.default = void 0;
 
 var _react = _interopRequireDefault(require("react"));
 
-var _Home = _interopRequireDefault(require("./Home.js"));
+var _Home = _interopRequireDefault(require("../guest/Home.js"));
 
-var _About = _interopRequireDefault(require("./About.js"));
+var _About = _interopRequireDefault(require("../guest/About.js"));
 
-var _Oops = _interopRequireDefault(require("./Oops.js"));
+var _Oops = _interopRequireDefault(require("../guest/Oops.js"));
 
 var _Logout = _interopRequireDefault(require("./Logout.js"));
 
-var _Activities = _interopRequireDefault(require("./Activities.js"));
+var _Activities = _interopRequireDefault(require("../guest/Activities.js"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -28816,7 +28816,7 @@ function (_React$Component) {
 
 var _default = MemberApp;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","./Home.js":"Home.js","./About.js":"About.js","./Oops.js":"Oops.js","./Logout.js":"Logout.js","./Activities.js":"Activities.js"}],"adminApp.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","../guest/Home.js":"guest/Home.js","../guest/About.js":"guest/About.js","../guest/Oops.js":"guest/Oops.js","./Logout.js":"member/Logout.js","../guest/Activities.js":"guest/Activities.js"}],"admin/AdminActivity.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -28826,15 +28826,135 @@ exports.default = void 0;
 
 var _react = _interopRequireDefault(require("react"));
 
-var _Home = _interopRequireDefault(require("./Home.js"));
+var _dino = _interopRequireDefault(require("../images/dino2.jpg"));
 
-var _About = _interopRequireDefault(require("./About.js"));
+var _activities = _interopRequireDefault(require("../db/activities.json"));
 
-var _Oops = _interopRequireDefault(require("./Oops.js"));
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var _Logout = _interopRequireDefault(require("./Logout.js"));
+function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
-var _Activities = _interopRequireDefault(require("./Activities.js"));
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+var AdminActivity =
+/*#__PURE__*/
+function (_React$Component) {
+  _inherits(AdminActivity, _React$Component);
+
+  function AdminActivity(props) {
+    var _this;
+
+    _classCallCheck(this, AdminActivity);
+
+    _this = _possibleConstructorReturn(this, _getPrototypeOf(AdminActivity).call(this, props));
+    _this.state = {
+      'activities': _activities.default
+    };
+    return _this;
+  }
+
+  _createClass(AdminActivity, [{
+    key: "add",
+    value: function add() {
+      this.state.activities.push({
+        "name": [title.value],
+        "type": [type.value],
+        "dates": [dates.value]
+      });
+      title.value = "";
+      type.value = "";
+      dates.value = "";
+      this.update();
+    }
+  }, {
+    key: "remove",
+    value: function remove(i) {
+      this.state.activities.splice(i, 1);
+      this.update();
+    }
+  }, {
+    key: "update",
+    value: function update() {
+      this.setState({
+        'activities': this.state.activities
+      });
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      var _this2 = this;
+
+      var activity_adder = _react.default.createElement("section", {
+        className: "form border"
+      }, _react.default.createElement("label", null, "Name:"), _react.default.createElement("input", {
+        type: "text",
+        id: "title",
+        placeholder: "Super Sammich Sundays"
+      }), _react.default.createElement("label", null, "Type:"), _react.default.createElement("input", {
+        type: "text",
+        id: "type",
+        placeholder: "food"
+      }), _react.default.createElement("label", null, "Dates:"), _react.default.createElement("input", {
+        type: "text",
+        id: "dates",
+        placeholder: "Every Sunday"
+      }), _react.default.createElement("button", {
+        onClick: this.add.bind(this)
+      }, "Add"));
+
+      var activity_table = _react.default.createElement("tbody", null, this.state.activities.map(function (activity, i) {
+        return _react.default.createElement("tr", {
+          key: "activity" + i
+        }, _react.default.createElement("td", null, _react.default.createElement("button", {
+          onClick: _this2.remove.bind(_this2, i)
+        }, "Delete")), _react.default.createElement("td", null, activity["name"].join(', ')), _react.default.createElement("td", null, activity["type"].join(', ')), _react.default.createElement("td", null, activity["dates"].join(', ')));
+      }));
+
+      return _react.default.createElement("main", null, _react.default.createElement("img", {
+        src: _dino.default,
+        alt: "A robot triceratops with a laser blaster mounted on top."
+      }), _react.default.createElement("header", null, _react.default.createElement("h1", null, "Club Activity Management")), activity_adder, _react.default.createElement("table", null, _react.default.createElement("thead", null, _react.default.createElement("tr", null, _react.default.createElement("td", null), _react.default.createElement("td", null, "Name"), _react.default.createElement("td", null, "Type"), _react.default.createElement("td", null, "Dates"))), activity_table));
+    }
+  }]);
+
+  return AdminActivity;
+}(_react.default.Component);
+
+var _default = AdminActivity;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","../images/dino2.jpg":"images/dino2.jpg","../db/activities.json":"db/activities.json"}],"admin/adminApp.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _Home = _interopRequireDefault(require("../guest/Home.js"));
+
+var _About = _interopRequireDefault(require("../guest/About.js"));
+
+var _Oops = _interopRequireDefault(require("../guest/Oops.js"));
+
+var _Logout = _interopRequireDefault(require("../member/Logout.js"));
+
+var _AdminActivity = _interopRequireDefault(require("./AdminActivity.js"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -28887,7 +29007,7 @@ function (_React$Component) {
           break;
 
         case 1:
-          main = _react.default.createElement(_Activities.default, null);
+          main = _react.default.createElement(_AdminActivity.default, null);
           break;
 
         case 2:
@@ -28934,18 +29054,18 @@ function (_React$Component) {
 
 var _default = AdminApp;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","./Home.js":"Home.js","./About.js":"About.js","./Oops.js":"Oops.js","./Logout.js":"Logout.js","./Activities.js":"Activities.js"}],"index.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","../guest/Home.js":"guest/Home.js","../guest/About.js":"guest/About.js","../guest/Oops.js":"guest/Oops.js","../member/Logout.js":"member/Logout.js","./AdminActivity.js":"admin/AdminActivity.js"}],"index.js":[function(require,module,exports) {
 "use strict";
 
 var _react = _interopRequireDefault(require("react"));
 
 var _reactDom = _interopRequireDefault(require("react-dom"));
 
-var _guestApp = _interopRequireDefault(require("./guestApp.js"));
+var _guestApp = _interopRequireDefault(require("./guest/guestApp.js"));
 
-var _memberApp = _interopRequireDefault(require("./memberApp.js"));
+var _memberApp = _interopRequireDefault(require("./member/memberApp.js"));
 
-var _adminApp = _interopRequireDefault(require("./adminApp.js"));
+var _adminApp = _interopRequireDefault(require("./admin/adminApp.js"));
 
 var _dino = _interopRequireDefault(require("./images/dino1.jpg"));
 
@@ -29024,7 +29144,7 @@ function (_React$Component) {
 }(_react.default.Component);
 
 _reactDom.default.render(_react.default.createElement(App, null), document.getElementById("root"));
-},{"react":"node_modules/react/index.js","react-dom":"node_modules/react-dom/index.js","./guestApp.js":"guestApp.js","./memberApp.js":"memberApp.js","./adminApp.js":"adminApp.js","./images/dino1.jpg":"images/dino1.jpg"}],"../../../../../../usr/local/lib/node_modules/parcel/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","react-dom":"node_modules/react-dom/index.js","./guest/guestApp.js":"guest/guestApp.js","./member/memberApp.js":"member/memberApp.js","./admin/adminApp.js":"admin/adminApp.js","./images/dino1.jpg":"images/dino1.jpg"}],"../../../../../../usr/local/lib/node_modules/parcel/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -29052,7 +29172,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "40263" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "39741" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
